@@ -15,7 +15,7 @@ body{
 
 .quote-box{
     background: #fff;
-    width: 500px;
+    min-width: 350px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -24,7 +24,6 @@ body{
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 10px 20px 0px rgba(0,0,0,0.15);
-    margin-left: 30px;
 
 }
 .quote-box h2{
@@ -108,19 +107,17 @@ body{
     height: 25px;
     margin-right: 10px;
 }
+
 .quote-box button:nth-child(2){
     background: transparent;
     color: #333;
 }
 
-
 @media screen and (max-width:600px) {
     .quote-box{
         background: hsl(0, 13%, 95%);
-
-        width:20px
-        margin-left: 30px;
-        margin-right:30px
+        min-width: 100px;
+        margin-left: 15px;
     }
 
     .quote-box h2{
@@ -133,7 +130,8 @@ body{
     .quote-box blockquote {
         font-size: 11px;
         min-height: 100px;
-        margin-left: 30px
+        width: 100px;
+        margin: 10px 70px;
     }
     .quote-box button img{
         width: 13px;
@@ -150,21 +148,6 @@ body{
         font-size: 8px;
         
     
-    }
-html{
-    touch-action:manipulation;
-
-    max-width:100%;
-    max-height:100%;
-    overflow:hidden;
-
-}
-    
-    @viewport {
-        zoom:1.0;
-        min-zoom:1.0;
-        max-zoom:1.0;
-        user-zoom:fixed;
     }
 
     
