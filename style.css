@@ -15,7 +15,7 @@ body{
 
 .quote-box{
     background: #fff;
-    width: 700px;
+    width: 500px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -24,6 +24,7 @@ body{
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 10px 20px 0px rgba(0,0,0,0.15);
+    margin-left: 30px;
 
 }
 .quote-box h2{
@@ -117,6 +118,7 @@ body{
     .quote-box{
         background: hsl(0, 13%, 95%);
         min-width: 100px;
+        margin-left: 30px;
     }
 
     .quote-box h2{
