@@ -107,22 +107,29 @@ body{
     height: 25px;
     margin-right: 10px;
 }
+.quote-box button:nth-child(2){
+    background: transparent;
+    color: #333;
+}
+
+
 @media screen and (max-width:600px) {
     .quote-box{
         background: hsl(0, 13%, 95%);
-        min-width: 107px;
-        margin-left:15px;
+        min-width: 100px;
     }
 
     .quote-box h2{
-        font-size: 13px;
+        font-size: 16px;
         margin-bottom: 20px;
     
     
     }
-    .quote-box blockquote{
-    font-size: 13px;
-    min-height: 55px;
+
+    .quote-box blockquote {
+        font-size: 11px;
+        min-height: 100px;
+    }
     .quote-box button img{
         width: 13px;
         height: 12px;
@@ -141,12 +148,4 @@ body{
     }
 
     
-}
-
-
-
-
-.quote-box button:nth-child(2){
-    background: transparent;
-    color: #333;
 }
