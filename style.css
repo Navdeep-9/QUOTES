@@ -113,42 +113,39 @@ body{
     color: #333;
 }
 
-@media screen and (max-width:600px) {
-    .quote-box{
+@media screen and (max-width: 600px) {
+    .quote-box {
         background: hsl(0, 13%, 95%);
-        min-width: 100px;
+        min-width: calc(100% - 30px); /* Adjusted to fit the screen */
         margin-left: 15px;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
     }
 
-    .quote-box h2{
+    .quote-box h2 {
         font-size: 16px;
         margin-bottom: 20px;
-    
-    
-    
+    }
 
     .quote-box blockquote {
         font-size: 11px;
         min-height: 100px;
-        width: 50px;
+        width: calc(100% - 140px); /* Adjusted to fit the screen */
         margin: 10px 70px;
     }
-    .quote-box button img{
+
+    .quote-box button img {
         width: 13px;
         height: 12px;
         margin-right: 5px;
     }
-    .quote-box button{
-        background: rgb(23,124,229) ;
+
+    .quote-box button {
+        background: rgb(23, 124, 229);
         color: #fff;
         border-radius: 12px;
         width: 75px;
         height: 25px;
         margin: 3px;
         font-size: 8px;
-        
-    
     }
-
-    
 }
