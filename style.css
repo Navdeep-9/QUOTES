@@ -118,6 +118,7 @@ body{
     .quote-box{
         background: hsl(0, 13%, 95%);
         min-width: 50px;
+        width:50px
         margin-left: 30px;
     }
 
@@ -131,6 +132,7 @@ body{
     .quote-box blockquote {
         font-size: 11px;
         min-height: 100px;
+        margin-left: 30px
     }
     .quote-box button img{
         width: 13px;
