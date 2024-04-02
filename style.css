@@ -118,7 +118,7 @@ body{
     .quote-box{
         background: hsl(0, 13%, 95%);
 
-        width:150px
+        width:100px
         margin-left: 30px;
     }
 
@@ -149,6 +149,21 @@ body{
         font-size: 8px;
         
     
+    }
+html{
+    touch-action:manipulation;
+
+    max-width:100%;
+    max-height:100%;
+    overflow:hidden;
+
+}
+    
+    @viewport {
+        zoom:1.0;
+        min-zoom:1.0;
+        max-zoom:1.0;
+        user-zoom:fixed;
     }
 
     
