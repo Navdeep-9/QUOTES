@@ -122,19 +122,19 @@ body{
     }
 
     .quote-box h2 {
-        font-size: 16px;
+        font-size: 22px;
         margin-bottom: 20px;
     }
 
     .quote-box blockquote {
-        font-size: 11px;
+        font-size: 20px;
         min-height: 100px;
         width: calc(100% - 140px); /* Adjusted to fit the screen */
         margin: 10px 70px;
     }
 
     .quote-box button img {
-        width: 13px;
+        width: 18px;
         height: 12px;
         margin-right: 5px;
     }
