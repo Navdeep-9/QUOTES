@@ -118,6 +118,7 @@ body{
         background: hsl(0, 13%, 95%);
         min-width: calc(100% - 30px); /* Adjusted to fit the screen */
         margin-left: 15px;
+        margin-right:15px;
         overflow-x: hidden; /* Prevent horizontal scrolling */
     }
 
