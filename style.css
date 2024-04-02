@@ -107,6 +107,40 @@ body{
     height: 25px;
     margin-right: 10px;
 }
+@media screen and (max-width:600px) {
+    .quote-box{
+        background: hsl(0, 13%, 95%);
+        min-width: 297px;
+    }
+
+    .quote-box h2{
+        font-size: 16px;
+        margin-bottom: 20px;
+    
+    
+    }
+    .quote-box button img{
+        width: 13px;
+        height: 12px;
+        margin-right: 5px;
+    }
+    .quote-box button{
+        background: rgb(23,124,229) ;
+        color: #fff;
+        border-radius: 12px;
+        width: 75px;
+        height: 25px;
+        margin: 3px;
+        font-size: 8px;
+        
+    
+    }
+
+    
+}
+
+
+
 
 .quote-box button:nth-child(2){
     background: transparent;
