@@ -125,12 +125,12 @@ body{
         margin-bottom: 20px;
     
     
-    }
+    
 
     .quote-box blockquote {
         font-size: 11px;
         min-height: 100px;
-        width: 100px;
+        width: 50px;
         margin: 10px 70px;
     }
     .quote-box button img{
