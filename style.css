@@ -111,10 +111,11 @@ body{
     .quote-box{
         background: hsl(0, 13%, 95%);
         min-width: 297px;
+        margin-left:15px;
     }
 
     .quote-box h2{
-        font-size: 16px;
+        font-size: 8px;
         margin-bottom: 20px;
     
     
